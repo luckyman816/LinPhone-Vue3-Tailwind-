@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.switch:checked {
+    @apply right-0 border-green-400;
+}
+.switch:checked + .switch-label {
+    @apply bg-green-400;
+}
+
+.color-box {
+    @apply px-2.5 py-0.5 rounded-sm mr-1 shadow-color-box border;
+}
+
+.form-control {
+    @apply box-border;
+}
